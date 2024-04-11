@@ -57,3 +57,9 @@
 > 1. 해 선택: 현재 상태에서 가장 최선이라고 생각되는 해를 선택함.
 > 2. 적절성 검사: 현재 선택한 해가 전체 문제의 제약 조건에 벗어나지 않는지 검사함.
 > 3. 해 검사: 현재까지 선택한 해 집합이 전체 문제를 해결할 수 있는지 검사함. 전체 문제를 해결하지 못한다면 1.로 돌아가 같은 과정을 반복함.
+---
+✨BOJ 참고 사이트
+- [파이썬 리스트(2차원)](https://juun42.tistory.com/14)
+- [sort()](https://blockdmask.tistory.com/564)
+- [파이썬 deque의 popleft()](https://yeomss.tistory.com/290)
+- [백준 1260번 DFS와 BFS (Python, DFS, BFS)](https://velog.io/@seungjae/%EB%B0%B1%EC%A4%80-1260%EB%B2%88-DFS%EC%99%80-BFS-Python-DFS-BFS)
