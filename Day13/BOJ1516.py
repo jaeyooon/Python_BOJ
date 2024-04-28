@@ -33,8 +33,8 @@ for i in range(1, N + 1):
 result = [0] * (N + 1)
 
 while queue:    # 큐가 빌 때까지 수행
-  now = queue.popleft()
-  for next in A[now]:
+  now = queue.popleft()   # 큐에서 데이터 가져오기
+  for next in A[now]:   # 현재 노드에서 갈 수 있는 노드 탐색
     indegree[next] -= 1
     # 시간 업데이트
     result[next] = max(result[next], result[now] + selfBuild[now])
